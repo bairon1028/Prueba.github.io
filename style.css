@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    padding-top: 7px;
+}
+body{
+   
+}
+#form-users{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+#button-add{
+    padding-top: 30px;
+}
+.row{
+    margin: 0;
+}
+#usuario{
+    padding: 5px 0 0 6px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+#buscar-usuario{
+    padding: 30px 100px 30px 30px;
+    text-align: right;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 50px 3px 50px;
+}
+#button-add2{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#buttons-save-cancel{
+    text-align: center;
+
+}
+#text-editar-usuario{
+    margin-top: 30px;
+}
+#form-crear-editar{
+    height: 490px;
+    width: 500px;
+    background-image: url(./img/WhatsApp\ Image\ 2024-01-23\ at\ 7.42.16\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px 15px 15px 470px;
+    padding-top: 3px;
+    padding-bottom: 305px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 10px rgb(128, 126, 126);
+}
+.text-center{
+    background-color: black;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#fondo-editar{
+    background: linear-gradient( white, #464545);
+}
+.table{
+    font-size: 15px;
+}

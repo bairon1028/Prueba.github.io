@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+    <link rel="stylesheet" href="style-crear-editar.css">
+    <title>Editar</title>
+</head>
+<body>
+<!--Div formulario/botones-->
+    <div id="form-crear-editar">
+      <h1 class="text-center" id="text-editar-usuario">Editar Usuario</h1>
+      <!--Formulario editar usuarios-->
+      <form id="form-users" class="row g-3 justify-content-center">
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Nombre</label>
+          <input type="text" name="name" class="form-control" id="inputPassword2" placeholder="Nombre">
+        </div>
+        <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Apellido</label>
+            <input type="text" name="lastname" class="form-control" id="inputPassword2" placeholder="Apellido">
+        </div>
+        <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Usuario</label>
+            <input type="text" name="user" class="form-control" id="inputPassword2" placeholder="Usuario">
+        </div>
+      </form>
+      <!--Fin Formulario editar usuarios-->
+
+      <!--Botones Guardar y cancelar-->
+      <div class="d-grid gap-2 col-5 mx-auto" id="buttons-save-cancel">
+        <a href=""><input type="submit" class="btn btn-outline-success" value="Guardar cambios"></a>
+        <a href=""><button type="text" class="btn btn-outline-danger">Cancelar</button></a>
+      </div>
+      <!--Fin Botones Guardar y cancelar-->
+    </div>
+<!--Fin Div formulario/botones-->
+</body>

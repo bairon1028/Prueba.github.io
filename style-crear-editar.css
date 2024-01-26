@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./img/fondo12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center; 
+    align-items: center;
+}
+#form-users{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#buttons-save-cancel{
+    text-align: center;
+}
+#text-editar-usuario{
+    margin-top: 30px;
+}
+#form-crear-editar{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 60px;
+    padding-bottom: 90px;
+    background-image: url(./img/Fondoblanco8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px 8px rgb(128, 126, 126);
+}
+.text-center{
+    padding-bottom: 0;
+    margin-bottom: 90px;
+}
